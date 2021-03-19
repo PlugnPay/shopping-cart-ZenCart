@@ -6,7 +6,8 @@ Multiple payment styles are supported, each covering a different checkout need.
 For ZenCart v1.5.x
 * Smart Screens v2 (Gateway Hosted Solution)
   - [Download](./ZenCart_v1.5.x/zencart_1.5.7_ss2_module.zip)
-  
+  - [Download - CardX](./ZenCart_v1.5.x/zencart_1.5.7_ss_cardx_module.zip) 
+ 
 For ZenCart v1.3.x
 * API (Remote Auth)
   - [Download - Credit Card](./ZenCart_v1.3.x/zencart_1.3.8_api_module.zip)
