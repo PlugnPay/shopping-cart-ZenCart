@@ -9,8 +9,8 @@ For ZenCart v1.5.x
   
 For ZenCart v1.3.x
 * API (Remote Auth)
-  - [Download - Credit Card](./ZenCart_v1.3.x/zencart_api_module.zip)
-  - [Download - ARB](./ZenCart_v1.3.x/zencart_1.3.8_arb_module.zip)
+  - [Download - Credit Card](./ZenCart_v1.3.x/zencart_1.3.8_api_module.zip)
+  - [Download - Auto Rec Bill](./ZenCart_v1.3.x/zencart_1.3.8_arb_module.zip)
   - [Download - Bill Member](./ZenCart_v1.3.x/zencart_1.3.8_bm_module.zip)
 * Smart Screens v1 (Legacy Gateway Hosted Solution)
   - [Download - Credit Card](./ZenCart_v1.3.x/zencart_1.3.8_cc_ss_module.zip)
