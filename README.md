@@ -13,15 +13,10 @@ For ZenCart v1.3.x
   - [Download - Credit Card](./ZenCart_v1.3.x/zencart_1.3.8_api_module.zip)
   - [Download - Auto Rec Bill](./ZenCart_v1.3.x/zencart_1.3.8_arb_module.zip)
   - [Download - Bill Member](./ZenCart_v1.3.x/zencart_1.3.8_bm_module.zip)
-* Smart Screens v1 (Legacy Gateway Hosted Solution)
-  - [Download - Credit Card](./ZenCart_v1.3.x/zencart_1.3.8_cc_ss_module.zip)
-  - [Download - ACH/eCheck](./ZenCart_v1.3.x/zencart_1.3.8_ach_ss_module.zip)
 
 For ZenCart v1.2.x
 * API (Remote Auth)
   - [Download - Credit Card](./ZenCart_v1.2.x/zencart_1.2.4.1_api_module.zip)
-* Smart Screens v1 (Legacy Gateway Hosted Solution)
-  - [Download - Credit Card](./ZenCart_v1.2.x/zencart_1.2.4.1_ss_module.zip)
 
 ## Installation
 
@@ -58,15 +53,4 @@ Smart Screens v2
 Smart Screens v2 (CardX Build)
 * This is a modified version of our normal Smart Screens v2 module, but for CardX specific clients.
 * If you have a CardX account, you should use this ZenCart module instead of our generic one.
-
-Smart Screens v1 (Legacy)
-* TO PREVENT ISSUES, DO NOT USE THIS MODULE, UNLESS TOLD TO BY PLUGNPAY STAFF!
-* This is a legacy version of our Smart Screens payment method, for older/custom PnP accounts.
-* Supports Credit Card &/or ACH/eCheck payment options configured with us.
-* ZenCart will NOT collect any sensitive payment info from the customer at checkout.
-* Customer will be redirected to our gateway's secure billing pages to complete their payment.
-* Our payment gateway will directly collect the payment data via our secure billing pages.
-* After the payment info is submitted & approved, we'll redirect the customer back to ZenCart.
-* This module does NOT require the given site to be SSL secured, but its still HIGHLY recommended.
-* IF POSSIBLE, USE THE SMART SCREENS V2 MODULE INSTEAD FOR BEST RESULTS.
 
