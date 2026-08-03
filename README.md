@@ -3,6 +3,12 @@
 Easy to install payment modules for the ZenCart shopping cart.
 Multiple payment styles are supported, each covering a different checkout need.
 
+For ZenCart v2.2.x
+* API (Remote Auth) — encapsulated `zc_plugins` package
+  - [Download - Credit Card](./ZenCart_v2.2.x/zencart_2.2.2_api_module.zip)
+  - Source: [./ZenCart_v2.2.x/src/](./ZenCart_v2.2.x/src/)
+  - Docs: [./ZenCart_v2.2.x/README.md](./ZenCart_v2.2.x/README.md)
+
 For ZenCart v1.5.x
 * Smart Screens v2 (Gateway Hosted Solution)
   - [Download](./ZenCart_v1.5.x/zencart_1.5.7_ss2_module.zip)
@@ -40,6 +46,8 @@ API
 * Customer never leaves the given site during the checkout process.
 * Customer never sees our payment gateway during the checkout process.
 * This module requires the given website to be properly SSL secured.
+* For Zen Cart 2.2.x the API module ships as an encapsulated zc_plugins package
+  with admin capture/void/refund support.
 
 Smart Screens v2
 * This is the most current version of our Smart Screens payment method.

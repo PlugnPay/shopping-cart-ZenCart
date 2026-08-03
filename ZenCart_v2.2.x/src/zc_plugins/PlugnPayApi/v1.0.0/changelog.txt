@@ -1,0 +1,6 @@
+v1.0.0 - 2026-08-03
+- Initial release for Zen Cart 2.2.x
+- Remote API authorize / sale (authonly / authpostauth)
+- Admin capture (mark), void, and refund (return)
+- Encapsulated zc_plugins packaging
+- Debug logging with PAN/CVV/password redaction

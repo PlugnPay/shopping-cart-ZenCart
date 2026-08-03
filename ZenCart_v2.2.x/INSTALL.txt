@@ -1,0 +1,35 @@
+====================================================
+PlugnPay Remote API Module (Credit Card Payments)
+Payment Module for Zen Cart v2.2.x
+====================================================
+
+***** IMPORTANT NOTES *****
+This module is provided "AS IS". Limited technical support assistance
+will be given to help diagnose/address problems with this module.
+
+This module requires SSL and PHP cURL. Zen Cart collects credit card
+information on your store's billing pages. Authorization is performed
+via PlugnPay's Remote API.
+
+PCI: Collecting cards onsite increases PCI scope. For hosted (lower
+PCI) checkout, use a PlugnPay Smart Screens module instead.
+***************************
+
+To Install:
+
+1. Unzip so that the zc_plugins/ folder merges into your Zen Cart root.
+
+2. In Admin → Plugins (Plugin Manager), install/enable
+   "PlugnPay Remote API".
+
+3. In Admin → Modules → Payment, install "PlugnPay Remote API" and
+   enter Publisher Name + Remote Client Password.
+
+4. For Capture/Void/Refund from Admin Orders, whitelist your server IP
+   in PlugnPay Security Administration.
+
+See README.md inside this package (or the repo ZenCart_v2.2.x/README.md)
+for full documentation, troubleshooting, and a manual test checklist.
+
+Source tree (development):
+  src/zc_plugins/PlugnPayApi/v1.0.0/
