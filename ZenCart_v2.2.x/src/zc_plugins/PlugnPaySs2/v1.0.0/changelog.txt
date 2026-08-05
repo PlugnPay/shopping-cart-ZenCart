@@ -1,0 +1,6 @@
+v1.0.0 - 2026-08-05
+- Initial release for Zen Cart 2.2.x
+- Smart Screens v2 hosted checkout (https://pay1.plugnpay.com/pay/)
+- Encapsulated zc_plugins packaging
+- Admin capture (mark), void, and refund (return) via Remote API
+- Dedicated plugnpay_ss2 transaction table + file debug logging

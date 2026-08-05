@@ -28,8 +28,9 @@ To Install:
 4. For Capture/Void/Refund from Admin Orders, whitelist your server IP
    in PlugnPay Security Administration.
 
-See README.md inside this package (or the repo ZenCart_v2.2.x/README.md)
-for full documentation, troubleshooting, and a manual test checklist.
+See README.md inside the plugin package
+(src/zc_plugins/PlugnPayApi/v1.0.0/README.md) for full documentation,
+troubleshooting, and a manual test checklist.
 
 Source tree (development):
   src/zc_plugins/PlugnPayApi/v1.0.0/

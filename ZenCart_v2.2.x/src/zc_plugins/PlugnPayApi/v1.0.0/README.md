@@ -15,7 +15,7 @@ This is an **encapsulated Zen Cart plugin** (`zc_plugins`). It does not modify Z
 
 ## PCI notice
 
-This module collects cardholder data on your server, which increases PCI DSS scope. For a lower-scope hosted option, use PlugnPay Smart Screens instead (separate module).
+This module collects cardholder data on your server, which increases PCI DSS scope. For a lower-scope hosted option, use the PlugnPay Smart Screens v2 module (`PlugnPaySs2`).
 
 ## Requirements
 

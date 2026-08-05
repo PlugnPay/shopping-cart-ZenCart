@@ -1,0 +1,37 @@
+====================================================
+PlugnPay Smart Screens v2 Module (Hosted Payments)
+Payment Module for Zen Cart v2.2.x
+====================================================
+
+***** IMPORTANT NOTES *****
+This module is provided "AS IS". Limited technical support assistance
+will be given to help diagnose/address problems with this module.
+
+This module redirects customers to PlugnPay Smart Screens v2 hosted
+billing pages (https://pay1.plugnpay.com/pay/). Your store does not
+collect card data onsite.
+
+Admin Capture / Void / Refund use PlugnPay Remote API and require
+Remote Client Password + server IP whitelist.
+***************************
+
+To Install:
+
+1. Unzip so that the zc_plugins/ folder merges into your Zen Cart root.
+
+2. In Admin → Plugins (Plugin Manager), install/enable
+   "PlugnPay Smart Screens v2".
+
+3. In Admin → Modules → Payment, install "PlugnPay Smart Screens v2"
+   and enter your Gateway Account. Enter Remote Client Password if you
+   will use Capture / Void / Refund from Admin Orders.
+
+4. For Capture/Void/Refund from Admin Orders, whitelist your server IP
+   in PlugnPay Security Administration.
+
+See README.md inside this package (or the plugin README under
+src/zc_plugins/PlugnPaySs2/v1.0.0/) for full documentation,
+troubleshooting, and a manual test checklist.
+
+Source tree (development):
+  src/zc_plugins/PlugnPaySs2/v1.0.0/

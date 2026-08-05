@@ -6,11 +6,15 @@ Multiple payment styles are supported, each covering a different checkout need.
 For ZenCart v2.2.x
 * API (Remote Auth) — encapsulated `zc_plugins` package
   - [Download - Credit Card](./ZenCart_v2.2.x/zencart_2.2.2_api_module.zip)
-  - Source: [./ZenCart_v2.2.x/src/](./ZenCart_v2.2.x/src/)
-  - Docs: [./ZenCart_v2.2.x/README.md](./ZenCart_v2.2.x/README.md)
+  - Source: [./ZenCart_v2.2.x/src/zc_plugins/PlugnPayApi/](./ZenCart_v2.2.x/src/zc_plugins/PlugnPayApi/)
+  - Docs: [./ZenCart_v2.2.x/src/zc_plugins/PlugnPayApi/v1.0.0/README.md](./ZenCart_v2.2.x/src/zc_plugins/PlugnPayApi/v1.0.0/README.md)
+* Smart Screens v2 (Gateway Hosted Solution) — encapsulated `zc_plugins` package
+  - [Download](./ZenCart_v2.2.x/zencart_2.2.2_ss2_module.zip)
+  - Source: [./ZenCart_v2.2.x/src/zc_plugins/PlugnPaySs2/](./ZenCart_v2.2.x/src/zc_plugins/PlugnPaySs2/)
+  - Docs: [./ZenCart_v2.2.x/src/zc_plugins/PlugnPaySs2/v1.0.0/README.md](./ZenCart_v2.2.x/src/zc_plugins/PlugnPaySs2/v1.0.0/README.md)
 
 For ZenCart v1.5.x
-* Smart Screens v2 (Gateway Hosted Solution)
+* Smart Screens v2 (Gateway Hosted Solution) — legacy copy-into-core packages
   - [Download](./ZenCart_v1.5.x/zencart_1.5.7_ss2_module.zip)
   - [Download - CardX](./ZenCart_v1.5.x/zencart_1.5.7_ss_cardx_module.zip) 
  
@@ -57,8 +61,10 @@ Smart Screens v2
 * Our payment gateway will directly collect the payment data via our secure billing pages.
 * After the payment info is submitted & approved, we'll redirect the customer back to ZenCart.
 * This module does NOT require the given site to be SSL secured, but its still HIGHLY recommended.
+* For Zen Cart 2.2.x the Smart Screens v2 module ships as an encapsulated zc_plugins package
+  with admin capture/void/refund support (same pattern as the 2.2 API module).
 
 Smart Screens v2 (CardX Build)
-* This is a modified version of our normal Smart Screens v2 module, but for CardX specific clients.
-* If you have a CardX account, you should use this ZenCart module instead of our generic one.
+* Legacy CardX-specific build for Zen Cart 1.5.x only.
+* Not offered for Zen Cart 2.2.x.
 
