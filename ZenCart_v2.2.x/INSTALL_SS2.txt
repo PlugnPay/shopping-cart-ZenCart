@@ -1,6 +1,6 @@
 ====================================================
 PlugnPay Smart Screens v2 Module (Hosted Payments)
-Payment Module for Zen Cart v2.2.x
+Payment Module for Zen Cart v2.2.x — plugin v1.0.1
 ====================================================
 
 ***** IMPORTANT NOTES *****
@@ -11,27 +11,33 @@ This module redirects customers to PlugnPay Smart Screens v2 hosted
 billing pages (https://pay1.plugnpay.com/pay/). Your store does not
 collect card data onsite.
 
-Admin Capture / Void / Refund use PlugnPay Remote API and require
-Remote Client Password + server IP whitelist.
+Transactions are AUTHORIZATION-ONLY (pb_post_auth=no). Orders are
+left Pending. Capture, void, and refund are performed in PlugnPay
+Merchant Admin — not from Zen Cart.
+
+There is no public demo gateway account. Use merchant-supplied
+credentials from your PlugnPay account.
 ***************************
 
 To Install:
 
-1. Unzip so that the zc_plugins/ folder merges into your Zen Cart root.
+1. Unzip so that the zc_plugins/ folder merges into your Zen Cart root:
+     zc_plugins/PlugnPaySs2/v1.0.1/...
 
 2. In Admin → Plugins (Plugin Manager), install/enable
    "PlugnPay Smart Screens v2".
 
 3. In Admin → Modules → Payment, install "PlugnPay Smart Screens v2"
-   and enter your Gateway Account. Enter Remote Client Password if you
-   will use Capture / Void / Refund from Admin Orders.
+   and enter your Gateway Account.
 
-4. For Capture/Void/Refund from Admin Orders, whitelist your server IP
-   in PlugnPay Security Administration.
+4. Configure currency, zone, database storage, and debug logging
+   as needed.
 
-See README.md inside this package (or the plugin README under
-src/zc_plugins/PlugnPaySs2/v1.0.0/) for full documentation,
-troubleshooting, and a manual test checklist.
+5. Place a test order using your merchant account / PlugnPay test
+   procedures.
+
+See README.md inside this package for full documentation,
+configuration reference, troubleshooting, and a manual test checklist.
 
 Source tree (development):
-  src/zc_plugins/PlugnPaySs2/v1.0.0/
+  src/zc_plugins/PlugnPaySs2/v1.0.1/

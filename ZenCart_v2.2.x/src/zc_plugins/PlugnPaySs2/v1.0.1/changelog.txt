@@ -1,0 +1,12 @@
+v1.0.1 - 2026-08-05
+- Fix callback session resume: put zenid on pb_success_url query string
+- Authorization-only hosted checkout (pb_post_auth=no); orders left Pending
+- No Zen Cart admin Capture / Void / Refund (use PlugnPay Admin)
+- Field mapping: pt_account_code_1 (basket), pd_display_items=no, pt_custom_name/value for zenid
+- Return validation: amount, gateway account, returned zenid/session
+
+v1.0.0 - 2026-08-05
+- Initial release for Zen Cart 2.2.x
+- Smart Screens v2 hosted checkout (https://pay1.plugnpay.com/pay/)
+- Encapsulated zc_plugins packaging
+- Dedicated plugnpay_ss2 transaction table + file debug logging

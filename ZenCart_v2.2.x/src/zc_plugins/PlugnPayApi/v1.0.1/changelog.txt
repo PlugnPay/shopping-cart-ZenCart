@@ -1,0 +1,11 @@
+v1.0.1 - 2026-08-05
+- Production only: remove Transaction Mode toggle (HTTPS required)
+- Remove Zen Cart admin Capture / Void / Refund (use PlugnPay Admin)
+- Keep Authorization Type (authonly / authpostauth)
+- Drop obsolete refunded-order-status config key on upgrade
+
+v1.0.0 - 2026-08-03
+- Initial release for Zen Cart 2.2.x
+- Remote API authorize / sale (authonly / authpostauth)
+- Encapsulated zc_plugins packaging
+- Debug logging with PAN/CVV/password redaction

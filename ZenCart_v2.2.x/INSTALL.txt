@@ -1,6 +1,6 @@
 ====================================================
 PlugnPay Remote API Module (Credit Card Payments)
-Payment Module for Zen Cart v2.2.x
+Payment Module for Zen Cart v2.2.x — plugin v1.0.1
 ====================================================
 
 ***** IMPORTANT NOTES *****
@@ -9,28 +9,32 @@ will be given to help diagnose/address problems with this module.
 
 This module requires SSL and PHP cURL. Zen Cart collects credit card
 information on your store's billing pages. Authorization is performed
-via PlugnPay's Remote API.
+via PlugnPay's Remote API (authonly or authpostauth). Capture, void,
+and refund are performed in PlugnPay Merchant Admin — not from Zen Cart.
 
 PCI: Collecting cards onsite increases PCI scope. For hosted (lower
-PCI) checkout, use a PlugnPay Smart Screens module instead.
+PCI) checkout, use the PlugnPay Smart Screens v2 module
+(zencart_2.2.2_ss2_module.zip / PlugnPaySs2).
 ***************************
 
 To Install:
 
-1. Unzip so that the zc_plugins/ folder merges into your Zen Cart root.
+1. Unzip so that the zc_plugins/ folder merges into your Zen Cart root:
+     zc_plugins/PlugnPayApi/v1.0.1/...
 
 2. In Admin → Plugins (Plugin Manager), install/enable
    "PlugnPay Remote API".
 
 3. In Admin → Modules → Payment, install "PlugnPay Remote API" and
-   enter Publisher Name + Remote Client Password.
+   enter Publisher Name + Remote Client Password. Choose Authorization
+   Type (authonly or authpostauth).
 
-4. For Capture/Void/Refund from Admin Orders, whitelist your server IP
-   in PlugnPay Security Administration.
+See the plugin README for full documentation, troubleshooting, and a
+manual test checklist:
+  src/zc_plugins/PlugnPayApi/v1.0.1/README.md
 
-See README.md inside the plugin package
-(src/zc_plugins/PlugnPayApi/v1.0.0/README.md) for full documentation,
-troubleshooting, and a manual test checklist.
+Also see the 2.2.x package overview:
+  ZenCart_v2.2.x/README.md
 
 Source tree (development):
-  src/zc_plugins/PlugnPayApi/v1.0.0/
+  src/zc_plugins/PlugnPayApi/v1.0.1/
